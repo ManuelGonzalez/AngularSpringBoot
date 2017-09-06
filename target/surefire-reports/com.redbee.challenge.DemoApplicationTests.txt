@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.redbee.challenge.DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.457 sec - in com.redbee.challenge.DemoApplicationTests

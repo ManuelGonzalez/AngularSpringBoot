@@ -1,0 +1,15 @@
+com\redbee\repositories\FeedsRepository.class
+com\redbee\bean\UserBean.class
+com\redbee\service\UserService.class
+com\redbee\repositories\FeedsRepositoryCrud.class
+com\redbee\repositories\UserRepository.class
+com\redbee\rest\FeedRest.class
+com\redbee\rest\UserRest.class
+com\redbee\serviceImp\UserServiceImp.class
+com\redbee\service\FeedsService.class
+com\redbee\repositoriesImp\FeedsRepositoryImp.class
+com\redbee\repositoriesImp\UserRepositoryImp.class
+com\redbee\bean\FeedBean.class
+com\redbee\DemoApplication.class
+com\redbee\repositories\UserRepositoryCrud.class
+com\redbee\serviceImp\FeedsServiceImp.class

@@ -1,0 +1,16 @@
+<div *ngIf="(loginUser.userObs | async)?.uid">
+  <app-header></app-header>
+  <div class="container-fluid">
+    <div class="row">
+      <app-menu></app-menu>
+
+      <main class="col-sm-9 ml-sm-auto col-md-10 pt-3" role="main">
+        <h1>Dashboard</h1>
+
+        <div *ngFor="let feed of feeds">
+          <fb-post href="https://www.facebook.com/{{feed.id.split('_')[0]}}/posts/{{feed.id.split('_')[1]}}/"></fb-post>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
